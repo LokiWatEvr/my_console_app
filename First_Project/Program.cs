@@ -13,7 +13,7 @@ namespace ConsoleColors
         {
             string stroka = "Тут могла быть ваша реклама";
             char symbol = 'A';
-        
+
 
             /* string s1 = "ghbdtn, ";
             string s2 = "vbh!";
@@ -68,14 +68,23 @@ namespace ConsoleColors
             Console.ForegroundColor= ConsoleColor.White;
             Console.WriteLine("\n\n\nВаш зашифрованный пароль: " + password.Replace('a', 'y') + "\n\nВаш пинкод: " + pincode + "\n\nВаша почта: " + email + "\n\tСпасибо что доверяете нашему сайту!");
             */
+            /*
+            Console.Write("Введите число, для которого будет выведена таблица умножения: ");
+            int n = int.Parse(Console.ReadLine());
 
-            ('\n\n\n\n\n\n\n\n');
+            for (int i = 0; i < 10; i++)
 
-
-
+            {
+                Console.WriteLine(i + " * " + n + " = " + (n * i));
+            }
 
             Console.ReadLine();
+            */
+            Console.Write("Напишите предложение: ");
+            string str = Console.ReadLine(); 
+            Console.WriteLine(str.Replace(' ', '_'));
 
+            Console.ReadLine();
             /*
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("------------------------------------");
