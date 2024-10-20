@@ -69,7 +69,7 @@ namespace ConsoleColors
             Console.WriteLine("\n\n\nВаш зашифрованный пароль: " + password.Replace('a', 'y') + "\n\nВаш пинкод: " + pincode + "\n\nВаша почта: " + email + "\n\tСпасибо что доверяете нашему сайту!");
             */
 
-
+            ('\n\n\n\n\n\n\n\n');
 
 
 
